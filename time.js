@@ -16,7 +16,7 @@ $(document).ready(function () {
         var currentDate = new Date().toISOString().slice(0, 10);
         var selectedDate = document.getElementById('hidden_select-date');
         // TODO--TMS要検証
-        var name_array = [10, 10, 11, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000, 2030, 2100, 2130, 2200];
+        var name_array = [101, 102, 111, 1130, 1200, 1230, 1300, 1330, 1400, 1430, 1500, 1530, 1600, 1630, 1700, 1730, 1800, 1830, 1900, 1930, 2000, 2030, 2100, 2130, 2200];
         for (var i = 0; i < name_array.length; i++) {
             if (selectedDate) {
                 if (selectedDate.value == currentDate) {
