@@ -1,6 +1,8 @@
 .schedule_grid .schedule_header {
     top: 50px;
     display: grid;
+    grid-template-columns: 380px 380px 380px 380px 380px 380px 380px 380px 380px 380px 380px 380px !important;
+    grid-template-rows: 50px 1fr;
     width: 4560px !important;
     margin-left: 80px;
     background-color: #333;
